@@ -8,4 +8,4 @@ app.get('/', (req, res) => {
 
 app.listen(port, () => {
     console.log(`server is breathing at http://localhost:${port}`)
-})
+});
