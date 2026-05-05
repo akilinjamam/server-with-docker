@@ -17,7 +17,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd /var/www/server-with-docker
+            cd /www/server-with-docker
 
             echo "Pulling latest code..."
             git pull origin main
