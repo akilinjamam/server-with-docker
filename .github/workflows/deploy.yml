@@ -26,4 +26,4 @@ jobs:
             npm install
 
             echo "Restarting server..."
-            pm2 restart server-with-docker
+            pm2 stop server-with-docker
